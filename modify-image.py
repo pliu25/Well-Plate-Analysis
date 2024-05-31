@@ -36,7 +36,7 @@ for r, row in enumerate(plate):
     for c, value in enumerate(row):
          for pixel in range(len(row)):
               column = 
-            
+#column = 1st pixel of each row etc       
 
 cv2.waitKey() 
 cv2.destroyAllWindows() 
